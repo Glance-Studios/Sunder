@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sunder",
+  "version": "${version}",
+  "name": "Sunder",
+  "description": "Risky enchantment extraction. At a grindstone, hold an enchanted item and a plain book (one in each hand) to wrench an enchantment out into the book, for XP levels, durability, and the real risk of shattering both. Server-side; players install nothing.",
+  "authors": ["Glance Studios"],
+  "contact": {},
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      { "adapter": "kotlin", "value": "dev.sunder.SunderMod" }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13"
+  }
+}
